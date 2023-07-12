@@ -1,5 +1,5 @@
    
-    var currency_symbol = '$';
+    var currency_symbol = 'set';
     var modifier_text_summary = true;
 
     var foxy_pattern=/^([^\{,]+)(\{((?:[pwcy][+:-][^\|\}]+\|?)+)\})?$/,modifier_pattern=/^p([+:-])([\d.]+)/;function convertSlugAsNeeded(a){return a.replace(/^\d/,function(a){return"\\"+a.charCodeAt(0).toString(16)+" "})}
